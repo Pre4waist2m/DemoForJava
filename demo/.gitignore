@@ -1,0 +1,73 @@
+# project ignore
+application.properties
+remote-config.properties
+redis-cluster.properties
+reservoir.properties
+application-dev.yml
+vkmq.config
+LOG_HOME_IS_UNDEFINED
+application.pid
+application.port
+logs/
+vcplogs/
+/LOG_HOME_IS_UNDEFINED/
+VKConf/
+data/
+runtime/*
+.gradle/*
+~/
+.DS_Store
+.git
+.evosuite
+
+# kdiff3 ignore
+*.orig
+.mvn
+# maven ignore
+target/
+!.mvn/wrapper/maven-wrapper.jar
+runtime/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+.idea
+*.iws
+*.iml
+*.ipr
+mvnw
+mvnw.cmd
+.mvn/
+
+# vim ignore
+*.swp
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# package ignore (optional)
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+*.rar
